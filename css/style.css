@@ -1,0 +1,129 @@
+body {
+    background-image: url('../img/R.c7516fdd29e9cbc8afb7d75ef272641c.jpg');
+    margin: 0px;
+}
+
+#heading {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(148, 236, 148, 0.562) !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius:30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(184, 180, 180, 0.5);
+    margin: 20px 400px 40px 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.form {
+    margin: 10px 0 10px 10px;
+    font-size: 18px
+}
+
+input {
+    font-size: 15px !important;
+}
+
+button {
+    font-size: 15px !important;
+}
+
+#hidden {
+    display: none;
+}
+
+#display {
+    display: flex;
+    background-color: rgba(184, 180, 180, 0.5);
+    margin: 20px 400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#kuralAndNumber {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#lang {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.detailClass {
+    background-color: rgba(184, 180, 180, 0.5);
+    padding: 20px 30px 20px 30px;
+    margin: 40px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1180px) {
+    form {
+        margin: 20px 300px 40px 300px;
+    }
+    #display {
+        margin: 20px 300px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    form {
+        margin: 20px 100px 40px 100px;
+    }
+    #display {
+        margin: 20px 100px;
+    }
+    .details {
+        flex-direction: column;
+    }
+    .detailClass {
+        display: block;
+        background-color: rgba(184, 180, 180, 0.5);
+        margin: 10px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    #heading {
+        margin: 10px 0px;
+    }
+    form {
+        margin: 20px 10px 40px 10px;
+        background-color: rgba(184, 180, 180, 0.5);
+    }
+    #display {
+        margin: 20px 10px;
+        background-color: rgba(184, 180, 180, 0.5);
+    }
+     .details {
+        flex-direction: column;
+        margin: 20px 0px;
+        padding-bottom: 100px;
+    }
+    .detailClass {
+        display: block;
+        background-color: rgba(184, 180, 180, 0.5);
+        margin: 10px;
+    }
+}
